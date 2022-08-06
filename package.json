@@ -1,0 +1,24 @@
+{
+  "name": "jesse-cox-video-of-the-day-twitter-bot",
+  "version": "1.0.0",
+  "description": "A twitter bot that tweets a random Jesse Cox YouTube video every day",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jessecox",
+    "jesse cox",
+    "omfgcata",
+    "youtube",
+    "bot"
+  ],
+  "author": "Branko Bjadov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "googleapis": "^105.0.0",
+    "twitter-api-v2": "^1.12.3"
+  }
+}
